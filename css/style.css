@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+  
+ .barra
+ {
+     background-color: #af1c52;
+     font-size: 15px;
+     
+ }
+ .titulo
+ {
+     color: white;
+
+ }
+ .dia
+ {
+     
+     font-size: 30px;
+ }
+ table
+ {   width: 100%;               
+ 
+  }
+ 
+ td
+ {   text-align: center;   
+ }
+
+
+  /* color de fondo */
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background:  rgb(227, 82, 247);
+  }
+  
+  /* color de fondo del titulo */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background:rgb(157, 23, 235);
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 68%;
+  }
+  
+  /* columna derecha*/
+  .rightcolumn {
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;    
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: rgb(247, 213, 255);
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: left;
+    background:  rgb(247, 213, 255);
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  #slip
+        {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 12px;
+            line-height: 2.5;
+            width: 136px;
+            background-color: #aaaaaa;
+            border-radius: 4px;
+            font-style: normal;
+            color: #f7f1f1;
+        }
+        #slip:hover
+        {   background-color: #257a2e;      }
+        #titulo{
+          color: white;
+        }
+        .column{
+          padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+        }
